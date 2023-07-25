@@ -22,6 +22,7 @@
 
     <!-- Contenedor de varias secciones: camisas, toallas, etc. -->
     <h2 class="sacos">BUZOS OVERSIZE</h2>
+
     <div id="productsContainer">
       <div class="categorySection">
         <div class="productSection" id="sacoProducts">
@@ -76,30 +77,35 @@
       <h2>CATEGORIAS</h2>
       <ol>
         <li>
-          <button onclick="toggleCategory('sacoProducts')">
-            BUZOS OVERSIZE
-          </button>
+          <a href="buzos.js" onclick="toggleCategory('sacoProducts')"> BUZOS</a>
         </li>
         <li>
-          <button onclick="toggleCategory('camisaProducts')">CAMISAS</button>
+          <a href="camisas.js" onclick="toggleCategory('camisaProducts')">
+            CAMISAS
+          </a>
         </li>
         <li>
-          <button onclick="toggleCategory('mugsProducts')">
+          <a href="mugs.js" onclick="toggleCategory('mugsProducts')">
             MUGS PERSONALIZADOS
-          </button>
+          </a>
         </li>
         <li>
-          <button onclick="toggleCategory('toallasProducts')">TOALLAS</button>
+          <a href="indumentaria.js" onclick="toggleCategory('toallasProducts')"
+            >TOALLAS</a
+          >
         </li>
         <li>
-          <button onclick="toggleCategory('indumentariaProducts')">
+          <a
+            href="indumentaria.js"
+            onclick="toggleCategory('indumentariaProducts')"
+          >
             Indumentaria Empresarial
-          </button>
+          </a>
         </li>
         <li>
-          <button onclick="toggleCategory('chalecoProducts')">
+          <a href="chalecos.js" onclick="toggleCategory('chalecoProducts')">
             CHALECOS EMPRESARIALES
-          </button>
+          </a>
         </li>
       </ol>
     </div>
@@ -107,5 +113,6 @@
       <!-- Aquí se mostrarán los detalles de las categorías -->
     </div>
     <script src="app.js"></script>
+    <script src="buzos.js"></script>
   </body>
 </html>
