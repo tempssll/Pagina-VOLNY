@@ -167,12 +167,20 @@ header {
   /* Ajusta el margen izquierdo para evitar que se solape con el botón fijo */
   margin-left: 160px;
 }
-
 .categorias {
-  color: #ccc;
-  background-color: red;
-  height: 45px;
-  width: 30%;
+  color: beige;
+  background-color: green;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #000;
+}
+
+.categorias h2 {
+  font-size: 20px;
+  margin: 0;
 }
 
 .nombre {
@@ -430,4 +438,25 @@ header {
   100% {
     background-color: #f0f0f0; /* Volver al color inicial */
   }
+}
+
+/* BOTON DE RETROCEDER */
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  bottom: 30px;
+  width: 20%;
+  position: fixed;
 }
