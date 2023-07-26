@@ -410,3 +410,28 @@ header {
 #info-message {
   color: black; /* Color de letra negro */
 }
+
+/* Estilos para la sección de información */
+.moving-info {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  animation: flashBlue 3.5s infinite;
+  -webkit-animation: flashBlue 3.5s infinite;
+}
+
+/* Animación para el flash de color azul */
+@keyframes flashBlue {
+  0% {
+    background-color: #f0f0f0; /* Color inicial */
+  }
+  50% {
+    background-color: #007bff; /* Color azul */
+  }
+  100% {
+    background-color: #f0f0f0; /* Volver al color inicial */
+  }
+}
