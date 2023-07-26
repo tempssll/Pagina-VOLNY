@@ -1,6 +1,6 @@
 // Datos simulados de productos para sacos y camisas
 const sacos = [
-  { id: 101, name: "Saco Clásico", price: 8000, image: "saco.jpeg" },
+  { id: 101, name: "Saco Clásico", price: 8000, image: "" },
   { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpeg" },
   { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpeg" },
   { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpeg" },
@@ -15,10 +15,10 @@ const sacos = [
 ];
 
 const camisas = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
@@ -45,7 +45,7 @@ const mugs = [
 ];
 
 const toallas = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
@@ -77,7 +77,7 @@ const indumentaria = [
 const chaleco = [
   { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
@@ -106,6 +106,15 @@ function showSacos() {
     sacoProductsContainer.appendChild(productCard);
   });
 }
+
+/* NUEVA SECCION ARREGLANDO */
+// app.js
+// app.js
+
+// app.js
+
+// Aquí puedes agregar más lógica o funciones si es necesario
+// ...
 
 // Función para mostrar los productos de camisas
 function showCamisas() {
