@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tienda de Ropa</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
   </head>
   <body>
     
@@ -14,19 +16,67 @@
 
 
     <header class="volny">
-      <p class="nombre">
-        VOLNY, Una marca versátil que ofrece la elaboración de prendas
-        personalizadas, así como servicios de bordados e impresiones grafica en
-        telas y tazas
-      </p>
-    </header>
+      <div class="moving-info">
+        <p id="info-message" class="nombre">
+          VOLNY, Una marca versátil que ofrece la elaboración de prendas
+          personalizadas, así como servicios de bordados e impresiones grafica en
+          telas y tazas
+        </p>
+      </div>
+          </header>
+
 
     <button id="sidebarToggleBtn" class="categorias">CATEGORIAS</button>
 
+    
+    <!-- Iconos de whaapp -->    
+    <div class="whatsapp-icon">
+      <a href="https://wa.me/+3108337837" target="_blank" title="Contáctame por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+    
+
+
+
+    <!-- Barra de informacion -->
+    <div class="moving-info">
+   
+    </div>
+    <!-- Asegúrate de incluir este script en la sección <body> o al final del archivo HTML -->
+<script>
+  // Array con los mensajes que quieres mostrar
+  const messages = [
+    "Garantizados",
+    "Innovación ",
+    "Calidad",
+    "Volny una marca versatil que ofrece la elaboración de prendas perzonalizadas, asi como sus servicios de bordados e impresiones graficas en telas y tazas"
+    // Puedes agregar más mensajes aquí
+  ];
+
+  // Obtener referencia al elemento del mensaje
+  const infoMessage = document.getElementById("info-message");
+
+  // Función para cambiar el mensaje en la sección
+  function changeMessage() {
+    let randomIndex = Math.floor(Math.random() * messages.length);
+    infoMessage.textContent = messages[randomIndex];
+  }
+
+  // Cambiar el mensaje cada 3 segundos (3000 milisegundos)
+  setInterval(changeMessage, 6000);
+</script><br><br><br>
+
+
+
+
+
+
+
+
+
+
     <!-- Contenedor de varias secciones: camisas, toallas, etc. -->
-
-
-
     <h2 class="sacos">BUZOS OVERSIZE</h2>
         <div class="productSection" id="sacoProducts">
       </div>
@@ -136,4 +186,25 @@
     <script src="app.js"></script>
     <scrip src="app2.js"></scrip>
   </body>
+
+
+
+  <!-- Informacion de Contacto -->
+  <div class="info-section">
+    <h2>Información</h2>
+    <ul>
+      <li><a href="#">Política de Privacidad</a></li><br>
+      <li><a href="#">Términos y Condiciones</a></li><br>
+      <li><a href="#">Política de Cambios y Garantías</a></li><br>
+      <li><a href="#">Política de reembolso</a></li><br>
+      <li><a href="#">Acerca de nosotros</a></li><br>
+    </ul>
+
+    <h2>Conócenos:</h2>
+    <p>Encuéntranos en: Armenia Quindio ###</p>
+    <p>Tel:###############
+</p>
+  </div>
+
+
 </html>

@@ -215,3 +215,18 @@ showIndumentaria();
 showChaleco();
 
 /* Seccion de la barra lateral  */
+
+//BOTOM DE CONTACTO
+// app.js
+
+// Obtener referencias a los elementos del DOM
+const contactoVentaBtn = document.getElementById("contactoVentaBtn");
+const contactoVentaMenu = document.getElementById("contactoVentaMenu");
+
+// Función para mostrar u ocultar el menú de contacto
+function toggleContactoVentaMenu() {
+  contactoVentaMenu.classList.toggle("hidden");
+}
+
+// Agregar el evento click al botón "Contacto de Venta"
+contactoVentaBtn.addEventListener("click", toggleContactoVentaMenu);
