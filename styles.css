@@ -37,10 +37,6 @@ header {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   transition: box-shadow 0.3s ease;
-  -webkit-transition: box-shadow 0.3s ease;
-  -moz-transition: box-shadow 0.3s ease;
-  -ms-transition: box-shadow 0.3s ease;
-  -o-transition: box-shadow 0.3s ease;
 }
 
 /* Resaltar los productos al pasar el cursor sobre ellos */
@@ -174,7 +170,7 @@ header {
 
 .categorias {
   color: #ccc;
-  background-color: blue;
+  background-color: red;
   height: 45px;
   width: 30%;
 }
