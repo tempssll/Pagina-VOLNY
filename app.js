@@ -1,15 +1,15 @@
 // Datos simulados de productos para sacos y camisas
 const sacos = [
-  { id: 101, name: "Saco Clásico", price: 8000, image: "" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpeg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpeg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpeg" },
-  { id: 101, name: "Saco Clásico", price: 8000, image: "saco.jpeg" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "" },
-  { id: 102, name: "Saco de Lana", price: 8000, image: "" },
+  { id: 101, name: "Saco Clásico", price: 8000, image: "saco.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "sacotres.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "saco.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpg" },
+  { id: 101, name: "Saco Clásico", price: 8000, image: "saco.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "sacodos.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "sacotres.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "saco.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "saco.jpg" },
+  { id: 102, name: "Saco de Lana", price: 8000, image: "saco.jpg" },
 
   // Agrega más sacos aquí
 ];
@@ -19,7 +19,7 @@ const camisas = [
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
   { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
   { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
@@ -30,31 +30,31 @@ const camisas = [
 ];
 
 const mugs = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "posillo.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "posillotres.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "posillocu.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "posillos.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "posillon.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "posilloca.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "posillodi.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "posilloquin.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "posillodos.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "posilloon.jpg" },
 
   // Agrega más camisas aquí
 ];
 
 const toallas = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Toallas Blanca", price: 8000, image: "toallas.jpg" },
+  { id: 202, name: "Toalla a Rayas", price: 8000, image: "toallaocho.jpg" },
+  { id: 201, name: "Toalla", price: 8000, image: "toallacuatro.jpg" },
+  { id: 202, name: "Toalla  ", price: 9000, image: "toallas.jpg" },
+  { id: 201, name: "Toalla ", price: 7000, image: "toallas.jpg" },
+  { id: 202, name: "Toalla", price: 8000, image: "toallas.jpg" },
+  { id: 201, name: "Toalla ", price: 8000, image: "toallacinco.jpg" },
+  { id: 202, name: "Toalla ", price: 8000, image: "toallados.jpg" },
+  { id: 201, name: "Toalla", price: 8000, image: "toallas.jpg" },
+  { id: 202, name: "Toalla ", price: 8000, image: "toallatres.jpg" },
 
   // Agrega más camisas aquí
 ];
@@ -75,16 +75,16 @@ const indumentaria = [
 ];
 
 const chaleco = [
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "camisados.jpeg" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "camisa.jpg" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
-  { id: 201, name: "Camisa Blanca", price: 8000, image: "" },
-  { id: 202, name: "Camisa a Rayas", price: 8000, image: "" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaquetatres.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetados.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaquetauno.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaqueta.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaquetatres.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetauno.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaqueta.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetados.jpg" },
+  { id: 201, name: "Camisa Blanca", price: 8000, image: "chaqueta.jpg" },
+  { id: 202, name: "Camisa a Rayas", price: 8000, image: "chaquetauno.jpg" },
 
   // Agrega más camisas aquí
 ];
@@ -156,12 +156,12 @@ function showChaleco() {
   });
 }
 
-// Función para crear una tarjeta de producto
+//RUTA DE LAS IMAGENES
 function createProductCard(product) {
   const productCard = document.createElement("div");
   productCard.className = "productCard";
   productCard.innerHTML = `
-      <img src="imagenes/${product.image}" alt="${product.name}">
+      <img src="imagenes/sacos/${product.image}"alt="${product.name}">
       <h3>${product.name}</h3>
       <p>Precio: $${product.price}</p>
      
