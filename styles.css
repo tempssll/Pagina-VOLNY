@@ -61,7 +61,7 @@ header {
 .chaleco {
   text-align: center;
   color: black;
-  background-color: cadetblue; /* Cambia el color aquí al que desees */
+  background-color: blue; /* Cambia el color aquí al que desees */
   padding: 10px; /* Agrega un espacio interno para que se vea mejor */
   /* Puedes agregar otros estilos según tus necesidades */
 }
