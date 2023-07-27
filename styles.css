@@ -1,5 +1,7 @@
 /* Estilos para el diseño básico de la tienda */
 body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -168,14 +170,16 @@ header {
   margin-left: 160px;
 }
 .categorias {
+  margin: 0;
+  padding: 0;
   color: beige;
   background-color: green;
-  height: 50px;
+  height: 40px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: #000;
+  border: 1px solid #000; /* Puedes quitar el borde si no lo deseas */
 }
 
 .categorias h2 {
@@ -459,4 +463,19 @@ header {
   bottom: 30px;
   width: 20%;
   position: fixed;
+}
+
+/* Destelledo dorado del texto */
+
+header {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.nombre {
+  font-size: 36px;
+  color: white;
+  text-shadow: 0 0 10px gold;
+  font-size: 110px;
 }
