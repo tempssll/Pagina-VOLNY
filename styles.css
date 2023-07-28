@@ -218,7 +218,7 @@ header {
 
 /* Seccion de categorias con colores */
 .seccion {
-  color: goldenrod;
+  color: red;
 }
 .contacto {
   position: fixed;
