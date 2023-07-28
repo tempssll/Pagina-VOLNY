@@ -204,6 +204,13 @@ header {
   background-color: red;
 }
 
+/* Ocultar categorias */
+.categorias.ocultar {
+  opacity: 0; /* Ocultamos la barra cambiando la opacidad a 0 */
+}
+
+
+
 .categorias h2 {
   font-size: 20px;
   margin: 0;

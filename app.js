@@ -230,3 +230,20 @@ function toggleContactoVentaMenu() {
 
 // Agregar el evento click al botón "Contacto de Venta"
 contactoVentaBtn.addEventListener("click", toggleContactoVentaMenu);
+
+/* Ocultar categorias */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  var categorias = document.querySelector(".categorias");
+  if (prevScrollpos > currentScrollPos) {
+    categorias.classList.remove(
+      "ocultar"
+    ); /* Si se desplaza hacia arriba, mostramos la barra */
+  } else {
+    categorias.classList.add(
+      "ocultar"
+    ); /* Si se desplaza hacia abajo, ocultamos la barra */
+  }
+  prevScrollpos = currentScrollPos;
+};
