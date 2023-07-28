@@ -84,15 +84,6 @@ header {
 
 /* Estilo para la barra lateral (sidebar) */
 .sidebar {
-  width: 8000%;
-  height: auto;
-  padding: 0px;
-  background-color: black;
-  overflow: hidden;
-  transition: width 0.3s ease;
-  position: fixed;
-  top: 50px;
-  width: 600%;
   /*Ajustaelvaloraquíparacambiarlaposiciónvertical*/
 }
 
@@ -132,10 +123,14 @@ header {
   border-radius: 4px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   transition: width 0.5s ease;
-  -webkit-transition: width 0.5s ease;
-  -moz-transition: width 0.5s ease;
-  -ms-transition: width 0.5s ease;
-  -o-transition: width 0.5s ease;
+  -webkit-transition: width 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: width 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -ms-transition: width 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: width 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .sidebar li {
@@ -208,8 +203,6 @@ header {
 .categorias.ocultar {
   opacity: 0; /* Ocultamos la barra cambiando la opacidad a 0 */
 }
-
-
 
 .categorias h2 {
   font-size: 20px;
