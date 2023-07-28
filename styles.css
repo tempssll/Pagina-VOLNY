@@ -121,12 +121,35 @@ header {
 /* Agrega este estilo para ocultar la barra lateral */
 .sidebar {
   width: 0;
+  /*Inicialmenteocultamoslalista*/
   overflow: hidden;
-  transition: width 0.3s ease-out;
-  -webkit-transition: width 0.3s ease-out;
-  -moz-transition: width 0.3s ease-out;
-  -ms-transition: width 0.3s ease-out;
-  -o-transition: width 0.3s ease-out;
+  /*Evitamosquesemuestreelcontenidooculto*/
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  background-color: black;
+  color: goldenrod;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: width 0.5s ease;
+  -webkit-transition: width 0.5s ease;
+  -moz-transition: width 0.5s ease;
+  -ms-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sidebarli:last-child {
+  border-bottom: none;
+}
+
+.sidebar li:hover {
+  background-color: beige;
+  cursor: pointer;
 }
 
 /* Agrega este estilo para mostrar la barra lateral cuando tenga contenido */
@@ -166,17 +189,19 @@ header {
   margin-left: 160px;
 }
 .categorias {
-  margin: 0;
-  padding: 0;
-  color: white;
-  background-color: #bb1111;
-  height: 40px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+  padding: 10px 20px;
+  background-color: blue;
+  color: bisque;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  justify-content: center;
-  border: 1px solid #0066cc; /* Puedes quitar el borde si no lo deseas */
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.categorias:hover {
+  background-color: red;
 }
 
 .categorias h2 {
@@ -193,7 +218,7 @@ header {
 
 /* Seccion de categorias con colores */
 .seccion {
-  color: red;
+  color: goldenrod;
 }
 .contacto {
   position: fixed;
@@ -472,4 +497,9 @@ header {
   color: white;
   text-shadow: 0 0 10px gold;
   font-size: 110px;
+}
+
+/* ESTA LINE DE CODIGO NO SIRVE */
+.seccion2 {
+  color: #000;
 }
