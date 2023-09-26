@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAMISAS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  </head>
+  <body>
+    
+    
+    <button id="sidebarToggleBtn" class="categorias">CATEGORIAS</button>
+
+    <div class="button-container"> <!-- Mueve la clase button-container aquí -->
+      <a href="index.html" id="retroceder" class="button">INICIO</a>
+    </div>
+  </div>
+
+
+
+
+    
+
+
+
+    <!-- Contenedor de varias secciones: camisas, toallas, etc. -->
+        <div class="productSection" id="sacoProducts">
+      </div>
+      <br /><br /><br />
+
+      <div class="whatsapp-icon">
+        <a href="https://wa.me/+3108337837" target="_blank" title="Contáctame por WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+
+
+      <h2 class="camisas">CAMISAS</h2>
+      <div class="categorySection">
+        <div class="productSection" id="camisaProducts">
+      </div>
+
+
+      <br /><br /><br />
+
+
+
+    <!-- Sección de la barra lateral -->
+    <div class="sidebar" id="sidebar">
+      <h2>CATEGORIAS</h2>
+          
+      <ol>
+    
+          <li>
+            <a
+              class="seccion"
+              href="buzos.html"
+              target="_blank"
+              onclick="toggleCategory('sacoProducts')"
+            >
+              BUZOS
+            </a>
+          </li><br><br>
+          <a class="seccion" href="camisas.html" onclick="toggleCategory('camisaProducts')">CAMISAS</a>
+        </li>
+        <li><br><br>
+          <a
+            class="seccion"
+            href="mugs.html"
+            onclick="toggleCategory('mugsProducts')"
+          >
+            MUGS PERSONALIZADOS
+          </a>
+        </li>
+        <li><br><br>
+          <a
+            class="seccion"
+            href="chalecos.html"
+            onclick="toggleCategory('toallasProducts')"
+            >TOALLAS</a
+          >
+        </li>
+        <li><br><br>
+          <a
+            class="seccion"
+            href="indumentaria.html"
+            onclick="toggleCategory('indumentariaProducts')"
+          >
+            INDUMENTARIA Empresarial
+          </a>
+        </li>
+        <li><br><br>
+          <a
+            class="seccion"
+            href="chalecoempresarial.html"
+            onclick="toggleCategory('chalecoProducts')"
+          >
+            CHALECOS EMPRESARIAL
+          </a>
+        </li><br><br>
+      </ol>
+    </div>
+    <div class="content">
+      <!-- Aquí se mostrarán los detalles de las categorías -->
+    </div>
+    <script src="app.js"></script>
+    <script src="ocultar.js"></script>
+  </body>
+  <div class="info-section">
+    <h2>Información</h2>
+    <ul>
+      <li><a href="#">Política de Privacidad</a></li><br>
+      <li><a href="#">Términos y Condiciones</a></li><br>
+      <li><a href="#">Política de Cambios y Garantías</a></li><br>
+      <li><a href="#">Política de reembolso</a></li><br>
+      <li><a href="#">Acerca de nosotros</a></li><br>
+      <li><a href="#">Encuéntranos en: Armenia Quindio</a></li><br>
+      <li><a href="#">Acerca de nosotros</a></li><br>
+      <li><a href="#">Tel:3108337837
+      </a></li><br>
+
+
+    </ul>
+
+    <h2 class="info-section">Conócenos:</h2>
+    <p>Encuéntranos en: Armenia Quindio ###</p>
+    <p>Tel:###############
+</p>
+  </div>
+
+
+
+
+</html>
